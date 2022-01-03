@@ -1,0 +1,47 @@
+.Home-Page {
+    .top-header{
+        .top-navigation{
+            display:flex;
+            max-width: 1440px;
+            align-items: center;
+            .logo-wrapper {
+                width: 10%;
+                padding: 10px 130px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 22px;
+                    position: relative;
+                 &:before {
+                     content:'';
+                     width: 100%;
+                     height: 50px;
+                     background-color: rgb(184, 184, 44);
+                     position: absolute;
+                     z-index: -10;
+                     left: 0;
+                     top: 0px;
+                     left: -20px;
+                 }   
+                }
+            }
+            ul {
+                display:flex;
+                justify-content: flex-end;
+                width: 100%;
+                
+            }
+            li {
+                list-style: none;
+                padding: 10px 35px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+}
+  

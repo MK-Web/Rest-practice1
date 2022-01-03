@@ -7,3 +7,51 @@
 /*#5FBDC4*/
 /*77787B*/
 /*484848*/
+.Home-Page .top-header .top-navigation {
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+}
+.Home-Page .top-header .top-navigation .logo-wrapper {
+  width: 10%;
+  padding: 10px 130px;
+}
+.Home-Page .top-header .top-navigation .logo-wrapper a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+}
+.Home-Page .top-header .top-navigation .logo-wrapper a:before {
+  content: "";
+  width: 100%;
+  height: 50px;
+  background-color: #b8b82c;
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  top: 0px;
+  left: -20px;
+}
+.Home-Page .top-header .top-navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.Home-Page .top-header .top-navigation li {
+  list-style: none;
+  padding: 10px 35px;
+}
+.Home-Page .top-header .top-navigation li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+}
