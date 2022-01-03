@@ -37,7 +37,7 @@
 }
 .Home-Page .top-wrapper .banner .banner-wrapper .heading .top-heading:before {
   content: "";
-  width: 650px;
+  width: 0.5px;
   height: 80px;
   background-color: #FFBA00;
   position: absolute;
