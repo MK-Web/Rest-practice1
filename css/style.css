@@ -7,6 +7,58 @@
 /*#5FBDC4*/
 /*77787B*/
 /*484848*/
+.Home-Page .top-wrapper {
+  background: url("../imgs/Place Your Design Here.png");
+  min-height: 750px;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70vh;
+  align-items: center;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper .heading {
+  padding-inline: 50px;
+  margin-left: -50px;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper .heading .top-heading {
+  margin-block: 0px;
+  font-size: 102px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  padding-block: 10px;
+  position: relative;
+  z-index: 1;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper .heading .top-heading:before {
+  content: "";
+  width: 650px;
+  height: 80px;
+  background-color: #FFBA00;
+  position: absolute;
+  z-index: -1;
+  left: -120%;
+  top: 50%;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper .heading .th-1 {
+  margin-top: 10px;
+  margin-left: -50px;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper .heading .th-2 {
+  margin-top: -50px;
+}
+.Home-Page .top-wrapper .banner .banner-wrapper button.read-more {
+  padding: 15px 20px;
+  margin-top: 150px;
+  background-color: #FFBA00;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
 .Home-Page .top-header .top-navigation {
   display: flex;
   max-width: 1440px;
@@ -21,15 +73,15 @@
   text-decoration: none;
   font-size: 22px;
   position: relative;
+  z-index: 10;
 }
 .Home-Page .top-header .top-navigation .logo-wrapper a:before {
   content: "";
   width: 100%;
   height: 50px;
-  background-color: #b8b82c;
+  background-color: #FFBA00;
   position: absolute;
-  z-index: -10;
-  left: 0;
+  z-index: -1;
   top: 0px;
   left: -20px;
 }
@@ -50,7 +102,6 @@
 }
 
 body {
-  max-width: 1440px;
   margin: 0;
   padding: 0;
   background-color: #242424;
