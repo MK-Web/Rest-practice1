@@ -1,0 +1,19 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Restaurant Responsive Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MK-Web/Rest-practice1.git"
+  },
+  "author": "Marko Kostic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MK-Web/Rest-practice1/issues"
+  },
+  "homepage": "https://github.com/MK-Web/Rest-practice1#readme"
+}
